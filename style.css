@@ -70,12 +70,12 @@ body {
     color: var(--teal);
 }
 
-.score p {
+.score h1 {
     color: #fff;
     font-size: 40px;
     font-weight: 700;
-    padding-top: 30px;
-    padding-bottom: px;
+    padding-top: 35px;
+    padding-bottom: 3px;
 }
 
 .great {
@@ -86,6 +86,8 @@ body {
 
 .descript {
     font-size: 15px;
+    width: 220px;
+    margin: -7px auto;
 }
 
 .right {
@@ -177,11 +179,16 @@ body {
 
     .left {
         width: 100%;
+        
         border-bottom-left-radius: 25px;
         border-bottom-right-radius: 25px;
         margin-top: -10px;
-        padding-bottom: 0px;
+        padding-bottom: 40px;
     
+    }
+
+    .descript {
+        width: 250px;
     }
 
     .right {
